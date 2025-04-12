@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "cross-spawn": "^7.0.6",
+    "ethers": "^5.8.0",
+    "next-themes": "^0.4.6",
+    "sonner": "^2.0.1"
+  }
+}
