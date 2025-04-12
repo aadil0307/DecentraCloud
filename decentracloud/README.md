@@ -1,68 +1,111 @@
-# 🌩️ DecentraCloud
+# 🌐 DecentraCloud – Decentralized Cloud Storage System
 
-**DecentraCloud** is a decentralized cloud storage solution that empowers users to store, share, and manage files securely across distributed nodes. Built with a strong focus on privacy, transparency, and resilience, DecentraCloud leverages the power of blockchain and distributed storage networks to ensure your data is always accessible—and always yours.
+![Logo](./img/logo.png)
 
----
-
-## 🚀 Features
-
-- 🔐 **Secure Login** – Authenticate users with robust security protocols.
-- ☁️ **File Uploading** – Seamless and intuitive file upload interface.
-- 📂 **File Management** – Browse, view, and organize files in a clean dashboard.
-- 🌍 **Decentralized Architecture** – Store files across distributed nodes for enhanced reliability and privacy.
-- 📈 **Real-time Sync Progress** – Monitor upload and synchronization status.
-- 🧩 **Modular Integration** – Designed to easily integrate with third-party dApps and platforms.
+DecentraCloud is a Web3-powered decentralized cloud storage platform that allows users to securely store, access, and manage files without relying on centralized authorities. With wallet-based authentication, smart contract integration, and decentralized file storage, DecentraCloud ensures full privacy, transparency, and user ownership over their data.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚩 Problem Statement
 
-| Layer        | Technology                                 |
-|--------------|---------------------------------------------|
-| Frontend     | React.js, TailwindCSS                      |
-| Backend      | Node.js, Express                           |
-| Storage      | IPFS / Filecoin                            |
-| Blockchain   | Ethereum / Polygon (smart contract layer)  |
-| Auth         | JWT + Metamask (Web3 login)                |
-| Database     | MongoDB (for metadata and user data)       |
+- Centralized cloud platforms are prone to data breaches and censorship.
+- Users lack true ownership and visibility into how their data is stored or used.
+- Downtime, high costs, and lack of transparency in existing cloud solutions.
+- No decentralized system exists for transparent file tracking and ownership.
+
+---
+
+## 🚀 Solution
+
+**DecentraCloud** offers a decentralized, blockchain-backed cloud storage alternative. Users interact with the platform using their Web3 wallets and store files in a secure, trustless, and censorship-resistant environment.
+
+---
+
+## 🔍 Features
+
+### 👥 Authentication & Access
+- Web3 Wallet login (MetaMask) – No email/passwords needed
+- Identity verified through wallet addresses
+
+### 📂 File Management
+- Upload/download files through decentralized networks like IPFS/Filecoin
+- File metadata (uploader, timestamp, hash) is stored on the blockchain
+
+### 🔐 Security & Ownership
+- Files encrypted before upload
+- Ownership and access control verified by wallet address
+
+### 📜 Smart Contracts
+- Track file records on-chain for transparency
+- Immutable audit trail of file uploads
+
+### 🧑‍💻 User Dashboard
+- Minimal and user-friendly interface
+- Real-time wallet connection status
+- File previews, hashes, and download buttons
 
 ---
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
-![Login Page](./screenshots/Screenshot%202025-04-12%20204909.png)
+### 🏠 Home Page
+| ![](./img/home1.png) | ![](./img/home2.png) |
+|--------------------------|--------------------------|
+
+### 📄 About Page
+| ![](./img/about1.png) | ![](./img/about2.png) |
+|---------------------------|---------------------------|
+
+### 📊 Dashboard
+| ![](./img/dashboard1.png) | ![](./img/dashboard2.png) |
+|-------------------------------|-------------------------------|
 
 ---
 
-### 🧭 Dashboard Overview
-![Dashboard](./screenshots/Screenshot%202025-04-12%20205407.png)
+## ⚙️ Tech Stack
+
+| Tech | Purpose |
+|------|---------|
+| `React.js` | Frontend interface |
+| `Thirdweb SDK` | Web3 wallet and smart contract integration |
+| `Solidity` | Smart contract logic |
+| `IPFS / Filecoin` | Decentralized file storage |
+| `MetaMask` | Web3 authentication |
+| `Tailwind CSS` | Styling and responsive design |
+| `Node.js` (optional) | Backend encryption services |
 
 ---
 
-### ☁️ Upload Interface
-![Upload Interface](./screenshots/Screenshot%202025-04-12%20205454.png)
+## 🛡️ Security
+
+- ✅ End-to-end file encryption  
+- ✅ Immutable on-chain metadata  
+- ✅ Wallet-authenticated operations  
+- ✅ Zero trust architecture  
 
 ---
 
-### 📁 File Management
-![File Management](./screenshots/Screenshot%202025-04-12%20205513.png)
+## 💡 Use Cases
+
+- Private and secure file backups  
+- Decentralized file sharing  
+- File ownership proofs (NFT-like)  
+- Blockchain-based document storage for enterprises  
 
 ---
 
-### 🔄 Sync Progress View
-![Sync Progress](./screenshots/Screenshot%202025-04-12%20205530.png)
+## 📌 Future Scope
+
+- 🔒 Role-based file access  
+- 📦 NFT-backed storage rights  
+- 📱 Mobile app and Chrome extension  
+- 🏛 DAO-based governance  
 
 ---
 
-### 🌐 Decentralized Nodes Map
-![Decentralized Nodes](./screenshots/Screenshot%202025-04-12%20205545.png)
+## 🧠 How to Run Locally
 
----
-
-## 🧪 Local Development
-
-### 1. Clone the Repository
+1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/decentracloud.git
-cd decentracloud
+git clone https://github.com/aadil0307/DecentraCloud.git
+cd DecentraCloud
