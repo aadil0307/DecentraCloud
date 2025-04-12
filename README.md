@@ -66,7 +66,7 @@ DecentraCloud is a Web3-powered decentralized cloud storage platform that allows
 
 | Tech | Purpose |
 |------|---------|
-| `React.js` | Frontend interface |
+| `Next.js` | Frontend interface |
 | `Thirdweb SDK` | Web3 wallet and smart contract integration |
 | `Solidity` | Smart contract logic |
 | `IPFS / Filecoin` | Decentralized file storage |
