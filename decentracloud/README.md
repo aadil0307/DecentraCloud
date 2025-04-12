@@ -1,154 +1,68 @@
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+# 🌩️ DecentraCloud
 
-# DecentraCloud: Decentralized Cloud Storage
+**DecentraCloud** is a decentralized cloud storage solution that empowers users to store, share, and manage files securely across distributed nodes. Built with a strong focus on privacy, transparency, and resilience, DecentraCloud leverages the power of blockchain and distributed storage networks to ensure your data is always accessible—and always yours.
 
-A decentralized cloud storage application built with Next.js and thirdweb.
+---
 
-## Setup
+## 🚀 Features
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up your thirdweb Client ID:
+- 🔐 **Secure Login** – Authenticate users with robust security protocols.
+- ☁️ **File Uploading** – Seamless and intuitive file upload interface.
+- 📂 **File Management** – Browse, view, and organize files in a clean dashboard.
+- 🌍 **Decentralized Architecture** – Store files across distributed nodes for enhanced reliability and privacy.
+- 📈 **Real-time Sync Progress** – Monitor upload and synchronization status.
+- 🧩 **Modular Integration** – Designed to easily integrate with third-party dApps and platforms.
 
-   - Go to [thirdweb dashboard](https://thirdweb.com/create-api-key)
-   - Create a new project to get your Client ID
-   - Copy the `.env.example` file to `.env.local` and add your Client ID:
-     ```
-     NEXT_PUBLIC_TEMPLATE_CLIENT_ID="your-client-id-here"
-     ```
-   - For development purposes, a test Client ID is provided automatically
+---
 
-4. Deploy the smart contract:
+## 🛠️ Tech Stack
 
-   ```bash
-   # Navigate to the ethereum directory
-   cd ethereum
+| Layer        | Technology                                 |
+|--------------|---------------------------------------------|
+| Frontend     | React.js, TailwindCSS                      |
+| Backend      | Node.js, Express                           |
+| Storage      | IPFS / Filecoin                            |
+| Blockchain   | Ethereum / Polygon (smart contract layer)  |
+| Auth         | JWT + Metamask (Web3 login)                |
+| Database     | MongoDB (for metadata and user data)       |
 
-   # Install dependencies
-   npm install
+---
 
-   # Compile the contract
-   npx hardhat compile
+## 📸 Screenshots
 
-   # Run tests
-   npx hardhat test
+### 🔐 Login Page
+![Login Page](./screenshots/Screenshot%202025-04-12%20204909.png)
 
-   # Deploy to local network
-   npx hardhat node
-   # Open a new terminal and run:
-   npx hardhat run scripts/deploy.ts --network localhost
+---
 
-   # Or deploy to a testnet (e.g., Sepolia)
-   # Add your private key and RPC URL to .env file:
-   # PRIVATE_KEY=your-private-key
-   # SEPOLIA_RPC_URL=your-rpc-url
-   # npx hardhat run scripts/deploy.ts --network sepolia
-   ```
+### 🧭 Dashboard Overview
+![Dashboard](./screenshots/Screenshot%202025-04-12%20205407.png)
 
-5. Update the contract address in your `.env.local` file:
+---
 
-   ```
-   NEXT_PUBLIC_CONTRACT_ADDRESS="your-deployed-contract-address"
-   ```
+### ☁️ Upload Interface
+![Upload Interface](./screenshots/Screenshot%202025-04-12%20205454.png)
 
-6. Run the development server:
+---
 
-   ```bash
-   npm run dev
-   ```
+### 📁 File Management
+![File Management](./screenshots/Screenshot%202025-04-12%20205513.png)
 
-7. Open [http://localhost:3000](http://localhost:3000) in your browser
+---
 
-## Features
+### 🔄 Sync Progress View
+![Sync Progress](./screenshots/Screenshot%202025-04-12%20205530.png)
 
-- Decentralized file storage using IPFS
-- Web3 authentication with thirdweb
-- Secure file sharing
-- User-friendly interface
+---
 
-## Technologies Used
+### 🌐 Decentralized Nodes Map
+![Decentralized Nodes](./screenshots/Screenshot%202025-04-12%20205545.png)
 
-- Next.js
-- thirdweb SDK
-- Web3.js
-- Hardhat
-- Solidity
-- IPFS
-- TypeScript
-- Tailwind CSS
+---
 
-## Smart Contract
+## 🧪 Local Development
 
-The DecentraCloud smart contract manages file metadata on the Ethereum blockchain:
-
-- `uploadFile`: Store file metadata (name, type, size, IPFS hash)
-- `getFileCount`: Get the number of files
-- `getFile`: Retrieve file metadata
-- `deleteFile`: Mark a file as deleted
-
-The actual file data is stored on IPFS, with only the metadata and hash references stored on the blockchain.
-
-## Learn More
-
-To learn more about the technologies used in this project:
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [thirdweb Documentation](https://portal.thirdweb.com/)
-- [Hardhat Documentation](https://hardhat.org/docs)
-- [IPFS Documentation](https://docs.ipfs.tech/)
-
-## Installation
-
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
-
+### 1. Clone the Repository
 ```bash
-  npx thirdweb create app --next
-```
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file:
-
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client).
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+git clone https://github.com/your-username/decentracloud.git
+cd decentracloud
