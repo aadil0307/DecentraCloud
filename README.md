@@ -1,6 +1,6 @@
 # 🌐 DecentraCloud – Decentralized Cloud Storage System
 
-![Logo](img\logo.png)
+![Logo](.\img\logo.png)
 
 DecentraCloud is a Web3-powered decentralized cloud storage platform that allows users to securely store, access, and manage files without relying on centralized authorities. With wallet-based authentication, smart contract integration, and decentralized file storage, DecentraCloud ensures full privacy, transparency, and user ownership over their data.
 
@@ -49,15 +49,15 @@ DecentraCloud is a Web3-powered decentralized cloud storage platform that allows
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-| ![](img\home1.png) | ![](img\home2.png) |
+| ![](.\img\home1.png) | ![](.\img\home2.png) |
 |--------------------------|--------------------------|
 
 ### 📄 About Page
-| ![](img\about1.png) | ![](img\about2.png) |
+| ![](.\img\about1.png) | ![](.\img\about2.png) |
 |---------------------------|---------------------------|
 
 ### 📊 Dashboard
-| ![](img\dashboard1.png) | ![](img\dashboard2.png) |
+| ![](.\img\dashboard1.png) | ![](.\img\dashboard2.png) |
 |-------------------------------|-------------------------------|
 
 ---
